@@ -4,16 +4,18 @@
 
 .our-team .pic{
     position: relative;
-    height: 300px;
+    height: 250px;
     border-radius: 100%;
     overflow:hidden;
 }
+
+
 
 .our-team .pic:before{
     content: "";
     width: 100%;
     height: 100%;
-    border-radius: 50%;
+    border-radius: 8    0%;
     position: absolute;
     top: 0;
     left: 0;
@@ -85,16 +87,20 @@
 .our-team .team-title{
     font-size: 22px;
     font-weight: bold;
-    color: #283a44;
+    color: #d7dcdf;
     text-transform: capitalize;
     margin-top: 10px;
+}
+#logo{
+    width: 60px;
+    margin-left: 47%;
 }
 
 #header-team{
     text-align: center;
     font-weight:bold;
     font-size: xxx-large;
-    color: rgb(150, 98, 36);
+    color: rgb(228, 226, 223);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -102,7 +108,7 @@
     display: block;
     font-size: 14px;
     font-weight: bolder;
-    color: #687177;
+    color: gold;
     text-transform: capitalize;
 }
 
